@@ -10,7 +10,7 @@ def start(user_choice_1):
         the_fellowship_of_the_terminal()
     elif user_choice_1 == '2':
         mixer.init()
-        mixer.music.load("/Users/mayra./Downloads/Kids cheering Yay! (Sound effect).wav")
+        mixer.music.load("./sounds/Kids cheering Yay! (Sound effect).wav")
         mixer.music.play() 
         
         input('\nGood job, Elrond! The ring is destroyed and Middle-Earth lives in peace and prosperity.🥳🤍✨\n')

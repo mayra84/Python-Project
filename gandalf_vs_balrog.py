@@ -23,9 +23,9 @@ Chapter 2: Gandalf vs Balrog
     input('The Fellowship- composed of a wizard, two men, an elf, a dwarf, and four hobbits- decide to go to the Mines of Moria, Gimli\'s👨🏾‍🚒 relatives home.')
 
     mixer.init()
-    mixer.music.load("/Users/mayra./Downloads/THE LORD OF THE RING - URUK HAI THEME.wav")
+    mixer.music.load("./sounds/THE LORD OF THE RING - URUK HAI THEME.wav")
     mixer.music.play()
-    
+
     input('\nEveryone makes it to the Mines of Moria only to discover a barren castle. They had been trapped and killed by Orcs.')  
     
 
@@ -67,7 +67,7 @@ Gandalf the Grey courageously confronts the Balrog!
             break
         elif user_choice_3 == '2':
             print('\nEveryone makes it out of the castle safely! They make it to the river and attacked by a hoard of Uruk-hai!! Everyone dies. RIP.🪦🪦🪦🪦🪦🪦🪦🪦🪦\n')
-            mixer.music.load("/Users/mayra./Downloads/Fail - sound effect.wav")
+            mixer.music.load("./sounds/Fail - sound effect.wav")
             mixer.music.play()
             input('')
             break

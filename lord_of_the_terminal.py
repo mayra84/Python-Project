@@ -5,7 +5,7 @@ from start import start
 def intro():
 
     mixer.init()
-    mixer.music.load("/Users/mayra./Downloads/The Fellowship Theme - Lord of the Rings _ EPIC VERSION.wav")
+    mixer.music.load("./sounds/The Fellowship Theme - Lord of the Rings _ EPIC VERSION.wav")
     mixer.music.play()
     # mixer.sound.set_volume()
 

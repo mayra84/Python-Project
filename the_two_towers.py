@@ -6,7 +6,7 @@ def the_two_towers():
 
     input('')
     mixer.init()
-    mixer.music.load("/Users/mayra./Downloads/LOTR - The Majesty of Gondor (soundtrack suite).wav")
+    mixer.music.load("./sounds/LOTR - The Majesty of Gondor (soundtrack suite).wav")
     mixer.music.play()
 
     os.system('clear')
@@ -67,7 +67,7 @@ Faramir presents his father with the One Ring. Denethor is easily influenced by 
 
 
 """) 
-            mixer.music.load("/Users/mayra./Downloads/Fail - sound effect.wav")
+            mixer.music.load("./sounds/Fail - sound effect.wav")
             mixer.music.play()
             input('')
             break

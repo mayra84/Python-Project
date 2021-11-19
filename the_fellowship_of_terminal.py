@@ -5,7 +5,7 @@ from gandalf_vs_balrog import gandalf_vs_balrog
 def the_fellowship_of_the_terminal():
 
     mixer.init()
-    mixer.music.load("/Users/mayra./Desktop/The Lord of the Rings - Soundtrack - Main theme.wav")
+    mixer.music.load("./sounds/The Lord of the Rings - Soundtrack - Main theme.wav")
     mixer.music.play()
     
     os.system('clear')
@@ -44,7 +44,7 @@ Chapter 1: The Fellowship of the Terminal
             print('\nThat is not a valid option. Please try again.\n')
             False 
         if user_choice_2 == '1':
-            mixer.music.load("/Users/mayra./Downloads/Fail - sound effect.wav")
+            mixer.music.load("./sounds/Fail - sound effect.wav")
             mixer.music.play()
 
             print('\n\nBoromir of Gondor draws his sword which initiates a full-on battle and everyone dies. RIP.🪦\n') 
